@@ -44,10 +44,14 @@
 
       <!-- BANNER -->
       <div class="banner">
-        <img src="movies banner/dunee.jpg" alt="Dune Part Two">
+        <img id="movie-img" src="movies banner/dunee.jpg" alt="Dune Part Two">
         <div class="banner-content">
-          <h2>Dune: Part Two</h2>
-          <p>SCI-FI, ADVENTURE</p>
+          <h2 id="Search-movie-title">Dune: Part Two</h2>
+
+          <div class="banner-movie-desc">
+          <p id="Search-movie-year">2012</p>
+          <p id="Search-movie-rating">IMDB: 3.4</p>
+          </div>
 
           <div class="banner-buttons">
             <button>Watch</button>
@@ -88,7 +92,7 @@
       <!-- SEARCH -->
       <div class="search-bar">
         <i class="lni lni-search-1"></i>
-        <input type="text" placeholder="Search...">
+        <input id="input-box" type="text" placeholder="Search">
       </div>
 
       <!-- LAST WATCHED -->
@@ -126,6 +130,8 @@
     </aside>
 
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
